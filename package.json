@@ -1,0 +1,16 @@
+{
+  "name": "@fewlines/eslint-config-fewlines-ts",
+  "version": "0.1.0",
+  "description": "Shareable ESLint configuration used by Fewlines for TS projects",
+  "main": "index.js",
+  "author": "Fewlines",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=2.3.0",
+    "@typescript-eslint/parser": ">=2.3.0",
+    "eslint": ">=5.10",
+    "eslint-config-prettier": ">=6.3.0",
+    "eslint-plugin-prettier": ">=3.1.1",
+    "prettier": ">=1.18"
+  }
+}
