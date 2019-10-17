@@ -1,6 +1,6 @@
 {
   "name": "@fewlines/eslint-config-fewlines-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint configuration used by Fewlines for TS projects",
   "main": "index.js",
   "author": "Fewlines",
