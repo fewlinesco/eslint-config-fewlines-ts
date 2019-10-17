@@ -16,7 +16,7 @@ See here for VSCode: https://github.com/prettier/prettier-vscode#vs-code-eslint-
 ```shell
 yarn add -D @fewlines/eslint-config-fewlines-ts eslint \
 eslint-config-prettier eslint-plugin-prettier prettier \
-@typecript-eslint/eslint-plugin @typescript-eslint/parser
+@typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 Then add these lines to your `package.json`:
