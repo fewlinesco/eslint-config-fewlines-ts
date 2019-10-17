@@ -6,6 +6,11 @@ This package includes the shareable ESLint configuration used by Fewlines typesc
 
 Extends `eslint:recommended`, `@typescript-eslint/eslint-recommended`, `@typescript-eslint/recommended`,
 
+:warning: As this plugin wants to use a minimalist configuration, it relies on using `prettier` via `ESLint` which means you
+could have to configure your editor.
+
+See here for VSCode: https://github.com/prettier/prettier-vscode#vs-code-eslint-and-tslint-integration
+
 ## Usage
 
 ```shell
@@ -14,8 +19,7 @@ eslint-config-prettier eslint-plugin-prettier prettier \
 @typecript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
-
-Then add these line to your `package.json`:
+Then add these lines to your `package.json`:
 
 ```json
 "eslintConfig": {

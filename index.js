@@ -12,7 +12,8 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "prettier"],
   rules: {
-    "prettier/prettier": "error",
-    "@typescript-eslint/camelcase": "off"
+    "prettier/prettier": ["error", { "trailingCommas": "all" }],
+    "@typescript-eslint/camelcase": "off",
+    "comma-dangle": ["error", "always-multiline"]
   }
 }
