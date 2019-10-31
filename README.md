@@ -1,5 +1,7 @@
 # eslint-config-fewlines-ts
 
+:warning: This package is deprecated in favor of [@fewlines/eslint-config](https://github.com/fewlinesco/eslint-config)
+
 Disclaimer: this package is made for our internal usage and is only open source for convenience so we might not consider _Pull Requests_ or _Issues_.
 
 This package includes the shareable ESLint configuration used by Fewlines typescript projects.
